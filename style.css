@@ -1,3 +1,6 @@
+body{
+  background-image: linear-gradient(to right, rgb(49, 50, 133), #0c234b)!important;
+}
 a {
   color: #000000!important;
   text-decoration: none;
@@ -12,10 +15,14 @@ h1{display: flex;
   margin: 0.2rem;
   margin-top: 0.4rem;
 }
+.txt{
+  color: white!important;
+}
 .navibar{
   position: sticky!important;top: 0;
   z-index: 100;
-  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(to right, white, #164089)!important;
 }
 .updates1{
     width: 100%;
@@ -26,6 +33,9 @@ h1{display: flex;
 .updates{
 max-width: 1600px;
 max-height: 668px;
+}
+.carousel-caption{
+  background-color: rgba(255, 255, 255, 0.753)!important;
 }
 .social{
   display: flex;
@@ -234,6 +244,14 @@ input[type=checkbox]:checked + label {
 color: #f00;
 font-style: normal;
 }
+.accordion-item{
+  background-image: linear-gradient(to right, rgb(49, 50, 133), #0c234b)!important;
+  color: white!important;
+}
+.accordion-button{
+  background-color: #0b1a65!important;
+  color: white!important;
+}
 .pd{
   padding-left: 15%;
   padding-right: 15%;
@@ -242,7 +260,7 @@ font-style: normal;
 .social{
   margin-bottom: 1rem;
 }
-/*.iframe-container{
+.iframe-container{
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; 
@@ -256,4 +274,4 @@ font-style: normal;
   height: 70%;
   margin-left: 15%;
   margin-right: 15%;
-}*/
+}
