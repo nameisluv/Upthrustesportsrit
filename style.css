@@ -269,12 +269,12 @@ font-style: normal;
 .iframe-container{
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 50%; 
   height: 0;
 }
 .iframe-container iframe{
   position: absolute;
-  top:0;
+  top:15%;
   left: 0;
   width: 70%;
   height: 70%;
