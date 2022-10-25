@@ -260,6 +260,12 @@ font-style: normal;
 .social{
   margin-bottom: 1rem;
 }
+.livevid{
+  margin-top: 2rem;
+}
+.videos{
+  margin-top: 1rem;
+}
 .iframe-container{
   position: relative;
   width: 100%;
