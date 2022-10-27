@@ -19,87 +19,25 @@ h1{display: flex;
   color: white!important;
 }
 .navibar{
-  /* position: sticky!important;top: 0; */
-  position: fixed;
+  position: sticky!important;top: 0;
   z-index: 100;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background-image: linear-gradient(to right, white, #164089)!important;
   transition: top 0.5s;
-  top: -10rem;
   width: 100%;
-
+}
+.updates{
+margin-top: 5rem;
 }
 .updates1{
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
-    padding-left: 13%;
-    padding-right: 13%;
-}
-.updates{
-  padding-top: 5rem;
-max-width: 1600px;
-max-height: 668px;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 .carousel-caption{
   background-color: rgba(255, 255, 255, 0.753)!important;
 }
-.social{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.social1{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 0.5rem;
-}
-.com{
-  padding: 0.5rem;
-  margin: 0.5rem;
-  border-radius: 0.5rem;
-  transition: 0.8s;
-  /* transition: 1s;
-  display: flex;
-  justify-content: center; */
-}
-.com:hover{
-background-color: #00bcc669;
-}
-.di{
-  background-color: #404EED;
-}
-.fb{
-  background-color: #637BAD;
-}
-.yo{
-  background-color: #d10202;
-}
-.in{
-  background-color: #dc2743;
-  /* background: #f09433; 
-background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
-}
-.tw{
-  background-color: #A971FE;
-}
-
-
-/* body {
-  background-color: #444442;
-  padding-top: 85px;
-} */
-
-/* h2 {
-  font-family: 'Poppins', sans-serif, 'arial';
-  font-weight: 600;
-  font-size: 72px;
-  color: rgb(0, 0, 0);
-  text-align: center;
-} */
 .gl{
   font-family: 'Trebuchet MS', sans-serif;
   padding-left: 0.2rem;
@@ -118,7 +56,7 @@ background-color: #00000015;
 border-radius: 0.5rem;
 }
 .padd{
-  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 .paddi{
   padding-left: 15%;
@@ -144,8 +82,8 @@ h4 {
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-left: 20%;
-margin-right: 20%;
+margin-left: 15%;
+margin-right: 15%;
 margin-bottom: 2rem;
 }
 .cont1 > input{
@@ -166,10 +104,11 @@ margin-bottom: 2rem;
   background-color: #2d2d2d;
 }
 .submit-btnn{
-  width: 5rem;
-  height: 2rem;
-  padding-bottom: 0.5rem;
-  margin: 0.5rem;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
   background-color: #4b8cfb;
   cursor: pointer;
   border: none;
@@ -191,15 +130,6 @@ input:focus,textarea:focus{
   padding-right: 15%;
   padding-bottom: 1.5rem;
 }
-/* .social{
-  margin-bottom: 1rem;
-} */
-/* .livevid{
-  margin-top: 2rem;
-} */
-/* .videos{
-  margin-top: 1rem;
-} */
 .iframe-container{
   position: relative;
   width: 100%;
@@ -280,4 +210,85 @@ input:focus,textarea:focus{
 .card-body1 p {
   font-size: 13px;
   margin: 0 0 40px;
+}
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  left: -3rem;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#zz{
+position: fixed;
+top: 70%;
+border-radius: 0.5rem;
+width: 2rem;
+height: 2rem;
+left: 0;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+background-color: #ffffff;
+transition: 1s;
+box-shadow: white;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 0.3rem;
+  transition: all 0.3s ease;
+  color: white;
+  /* font-size: 0.4rem; */
+}
+
+.icon-bar a:hover {
+  background-color: rgb(85, 132, 225);
+}
+
+.facebook {
+  background: #1e61f3;
+  color: white;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.instagram {
+  background: #dc277b;
+  color: white;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  margin-bottom: 0.3rem;
+
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  margin-bottom: 0.3rem;
+
+}
+
+.twitch {
+  background-color: #A971FE;
+  color: white;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  margin-bottom: 0.3rem;
+
+}
+
+.discord {
+  background-color: #404EED;
+  color: white;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  margin-bottom: 0.3rem;
 }
