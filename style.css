@@ -12,8 +12,6 @@ a:hover {
 }
 h1{display: flex;
   justify-content: center;
-  margin: 0.2rem;
-  margin-top: 0.4rem;
 }
 .txt{
   color: white!important;
@@ -26,14 +24,12 @@ h1{display: flex;
   transition: top 0.5s;
   width: 100%;
 }
-.updates{
-margin-top: 5rem;
-}
 .updates1{
+    padding-top: 1rem;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 13%;
+    padding-right: 13%;
 }
 .carousel-caption{
   background-color: rgba(255, 255, 255, 0.753)!important;
@@ -82,8 +78,8 @@ h4 {
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-left: 15%;
-margin-right: 15%;
+margin-left: 12%;
+margin-right: 12%;
 margin-bottom: 2rem;
 }
 .cont1 > input{
@@ -130,22 +126,29 @@ input:focus,textarea:focus{
   padding-right: 15%;
   padding-bottom: 1.5rem;
 }
-.iframe-container{
-  position: relative;
-  width: 100%;
-  padding-bottom: 50%; 
-  height: 0;
+.videos{
+  margin: auto;
+  max-width: 75%;
 }
-.iframe-container iframe{
-  position: absolute;
-  top:15%;
-  left: 0;
-  width: 70%;
-  height: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
 }
 
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
@@ -211,7 +214,23 @@ input:focus,textarea:focus{
   font-size: 13px;
   margin: 0 0 40px;
 }
-
+#zzx{
+  z-index: 101;
+}
+#zz{
+position: fixed;
+top: 70%;
+border-radius: 0.5rem;
+width: 2rem;
+height: 2rem;
+left: 0;
+z-index: 101;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+background-color: #ffffff;
+box-shadow: white;
+}
 
 .icon-bar {
   position: fixed;
@@ -220,21 +239,7 @@ input:focus,textarea:focus{
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-#zz{
-position: fixed;
-top: 70%;
-border-radius: 0.5rem;
-width: 2rem;
-height: 2rem;
-left: 0;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-background-color: #ffffff;
-transition: 1s;
-box-shadow: white;
+  transition: 1s;
 }
 
 .icon-bar a {
